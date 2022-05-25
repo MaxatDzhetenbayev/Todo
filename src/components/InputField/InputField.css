@@ -1,0 +1,33 @@
+.InputField {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.InputField input {
+   width: 300px;
+   height: 40px;
+   background-color: transparent;
+   border: 1px #eee solid;
+   border-radius: 5px;
+   padding: 0 15px;
+   outline: none;
+   margin-right: 15px;
+}
+
+
+
+.InputField button {
+
+   background-color: #eee;
+   border-radius: 15px;
+   color: #000;
+   text-transform: uppercase;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+
+.InputField button:hover {
+   transition: all 0.3s ease;
+   background-color: #fff;
+}
